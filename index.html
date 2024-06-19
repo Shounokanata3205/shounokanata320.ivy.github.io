@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アークナイツ紹介サイト</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>アークナイツ紹介サイト</h1>
+        <nav>
+            <ul>
+                <li><a href="#game">ゲームの内容</a></li>
+                <li><a href="#characters">キャラクター紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="game">
+            <h1>アークナイツの魅力</h1>
+            <p>
+                アークナイツは、未来の世界を舞台にしたタワーディフェンス型のスマートフォンゲームです。ゲームの物語は、天災と呼ばれる謎の災害によって荒廃した世界で繰り広げられます。プレイヤーは、「Rhodes Island」という医療会社のリーダーとなり、感染者と呼ばれる特殊な能力を持つ人々を救いながら、さまざまな敵勢力と戦います。
+            </p>
+            <p>
+                Rhodes Islandは、感染者たちの治療と救済を目的として活動していますが、同時に感染者を迫害する政府や組織と対立することもあります。プレイヤーは、個性豊かなオペレーターたちを指揮し、戦略を駆使して数々のミッションをクリアしていきます。
+            </p>
+        </section>
+        <section id="characters">
+            <h2>キャラクター紹介</h2>
+            <div class="character-container">
+                <img src="Amiya_29.webp" alt="Amiya" class="character-img" id="amiya">
+                <div class="character-description">
+                    <h3>Amiya</h3>
+                    <p>Amiyaはアークナイツの主人公の一人で、Rhodes Islandのリーダーです。彼女はオペレーターたちを率い、感染者の救助や医療支援、敵対勢力との戦闘にあたります。Amiyaは強力な魔法を使い、彼女のスキルは敵に大きなダメージを与えることができます。また、彼女は非常に知恵深く、リーダーシップに優れており、Rhodes Islandの精神的な支柱でもあります。</p>
+                </div>
+            </div>
+            <div class="character-container">
+                <img src="Eyjafjalla_Elite_2.webp" alt="Eyjafjalla" class="character-img" id="eyjafjalla">
+                <div class="character-description">
+                    <h3>Eyjafjalla</h3>
+                    <p>Eyjafjallaは強力な火山術師で、敵に大ダメージを与えるエリア攻撃が得意です。彼女は自然を愛し、その力を戦いに利用します。彼女の能力は高い破壊力を持ち、特に多くの敵が集まる場面で効果を発揮します。</p>
+                </div>
+            </div>
+            <div class="character-container">
+                <img src="Texas_Elite_2.webp" alt="Texas" class="character-img" id="texas">
+                <div class="character-description">
+                    <h3>Texas</h3>
+                    <p>Texasは冷静沈着な前衛オペレーターで、素早い攻撃と広範囲のスキルで敵を制圧します。彼女は元ギャングの一員であり、その経験を活かして戦術的な判断を下します。Texasのリーダーシップと戦闘能力は、チームの大きな力となります。</p>
+                </div>
+            </div>
+            <div class="character-container">
+                <img src="Typhon_Elite_2.webp" alt="Typhon" class="character-img" id="typhon">
+                <div class="character-description">
+                    <h3>Typhon</h3>
+                    <p>Typhonは強力な術師で、雷の力を操り敵に大ダメージを与えます。彼の攻撃は非常に高い威力を持ち、特に耐久力の高い敵に対して有効です。Typhonの冷酷な性格と圧倒的な力は、戦場で恐怖の存在となります。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 生野哉太</p>
+    </footer>
+
+    <!-- モーダル -->
+    <div id="characterModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
