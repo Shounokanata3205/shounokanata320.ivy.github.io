@@ -1,5 +1,5 @@
 html {
-    font-size: 14px; /* 基本のフォントサイズを小さく */
+    font-size: 24px; /* 基本のフォントサイズを調整 */
 }
 
 body {
@@ -9,19 +9,19 @@ body {
     background: url('EVIi0JaUMAAohIT.jpg') no-repeat center center fixed; /* 背景画像を設定 */
     background-size: cover;
     color: #fff;
-    font-size: 1.2rem; /* 基本フォントサイズに基づく相対サイズ */
+    font-size: 1.6rem; /* 基本フォントサイズに基づく相対サイズ */
 }
 
 header {
     background-color: rgba(51, 51, 51, 0.8); /* 背景色に透明度を追加 */
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
     padding: 0;
-    font-size: 2.5rem; /* 見出しのフォントサイズを小さく */
+    font-size: 3.5rem; /* 見出しのフォントサイズを大きく */
 }
 
 header nav ul {
@@ -31,26 +31,26 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem; /* ナビゲーションリンクのフォントサイズを調整 */
+    font-size: 2.4rem; /* ナビゲーションリンクのフォントサイズを調整 */
 }
 
 .official-site-button-container {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center; /* ボタンを中央揃え */
 }
 
 .official-site-button {
     background-color: #00f;
     color: #fff;
-    padding: 8px 16px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 1.2rem; /* ボタンのフォントサイズを調整 */
+    font-size: 2.4rem; /* ボタンのフォントサイズを調整 */
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -62,17 +62,17 @@ header nav ul li a {
 h1, h2 {
     text-align: center; /* 中央揃え */
     color: #0af;
-    font-size: 2.5rem; /* 見出しのフォントサイズを小さく */
+    font-size: 3.5rem; /* 見出しのフォントサイズを大きく */
 }
 
 p {
-    font-size: 1.2rem; /* 段落のフォントサイズを調整 */
+    font-size: 2.4rem; /* 段落のフォントサイズを調整 */
 }
 
 .character-container {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .character-container .image-wrapper {
@@ -81,33 +81,33 @@ p {
 }
 
 .character-container img.character-img.large {
-    width: 500px; /* 大きな画像サイズ */
+    width: 1000px; /* 大きな画像サイズ */
     height: auto;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .character-container img.character-img.small {
-    width: 75px; /* 小さな画像サイズ */
+    width: 150px; /* 小さな画像サイズ */
     height: auto;
-    margin-left: 10px; /* 左のマージンを追加 */
+    margin-left: 20px; /* 左のマージンを追加 */
 }
 
 .character-description {
-    max-width: 350px;
+    max-width: 700px;
 }
 
 .character-description h2 {
-    font-size: 2rem; /* キャラクター名のフォントサイズを調整 */
+    font-size: 3rem; /* キャラクター名のフォントサイズを調整 */
 }
 
 .character-description p {
-    font-size: 1.2rem; /* キャラクター説明のフォントサイズを調整 */
+    font-size: 2.4rem; /* キャラクター説明のフォントサイズを調整 */
 }
 
 footer {
     background-color: rgba(51, 51, 51, 0.8); /* 背景色に透明度を追加 */
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -116,7 +116,7 @@ footer {
 footer p {
     margin: 0;
     color: #fff;
-    font-size: 1rem; /* フッターのフォントサイズを調整 */
+    font-size: 1.4rem; /* フッターのフォントサイズを調整 */
 }
 
 .modal {
